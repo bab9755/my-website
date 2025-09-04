@@ -123,7 +123,7 @@ export default function Home() {
           <div className="space-y-12 sm:space-y-16">
             <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4">
               <h2 className="text-3xl sm:text-4xl font-light">Selected Work</h2>
-              <div className="text-sm text-muted-foreground font-mono">2019 — 2025</div>
+              <div className="text-sm text-muted-foreground font-mono">2024 — 2025</div>
             </div>
 
             <div className="space-y-8 sm:space-y-12">
@@ -199,49 +199,41 @@ export default function Home() {
           <div className="space-y-12 sm:space-y-16">
             <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4">
               <h2 className="text-3xl sm:text-4xl font-light">Featured Projects</h2>
-              <div className="text-sm text-muted-foreground font-mono">2020 — 2025</div>
+              <div className="text-sm text-muted-foreground font-mono">2024 — 2025</div>
             </div>
 
             <div className="space-y-8 sm:space-y-12">
               {[
                 {
-                  year: "2024",
-                  title: "AI-Powered Design System",
-                  type: "Open Source",
+                  year: "2025",
+                  title: "Fine-tuned Clinical Model",
+                  type: "Personal Project",
                   description:
-                    "A comprehensive design system with AI-generated components and automated documentation.",
-                  tech: ["React", "TypeScript", "Storybook", "OpenAI"],
+                    "Developed a clinical model (LoRA, Gemma 3) for reduced training loss and faster T4 GPU inference. Implemented a containerized ML pipeline (Docker, CUDA, GCP) to boost memory efficiency.",
+                  tech: ["Python", "LoRA", "Gemma 3", "Docker", "CUDA", "GCP"],
                   status: "Live",
                   github: "https://github.com/felixmacaspac/ai-design-system",
                 },
                 {
-                  year: "2024",
-                  title: "E-commerce Analytics Dashboard",
-                  type: "Client Work",
+                  year: "2025",
+                  title: "AI Job Board",
+                  type: "Class Project",
                   description:
-                    "Real-time analytics platform for e-commerce businesses with advanced data visualization.",
-                  tech: ["Next.js", "D3.js", "PostgreSQL", "Vercel"],
+                    "Developed a scalable full-stack AI Job Board (Next.js, Flask), deployed with Docker on VM. Implemented robust testing (pytest, Selenium) and a GitHub Actions CI/CD pipeline, achieving over 90% test coverage.",
+                  tech: ["Next.js", "Flask", "Docker", "VM", "pytest", "Selenium", "GitHub Actions"],
                   status: "Live",
                   github: "https://github.com/felixmacaspac/ecommerce-analytics",
                 },
                 {
-                  year: "2023",
-                  title: "Developer Portfolio Template",
-                  type: "Template",
-                  description: "Minimalist portfolio template for developers with dark mode and smooth animations.",
+                  year: "2024",
+                  title: "Brain Tumor Detection",
+                  type: "Personal Project",
+                  description: "Developed a brain tumor detection model using TensorFlow CNNs, achieving 90% accuracy with OpenCV preprocessing and data augmentation.",
                   tech: ["Next.js", "Tailwind CSS", "Framer Motion"],
                   status: "Live",
                   github: "https://github.com/felixmacaspac/portfolio-template",
                 },
-                {
-                  year: "2023",
-                  title: "Task Management API",
-                  type: "Side Project",
-                  description: "RESTful API for task management with real-time collaboration features.",
-                  tech: ["Node.js", "Express", "MongoDB", "Socket.io"],
-                  status: "Beta",
-                  github: "https://github.com/felixmacaspac/task-management-api",
-                },
+
               ].map((project, index) => (
                 <div
                   key={index}
@@ -380,15 +372,15 @@ export default function Home() {
 
               <div className="space-y-6">
                 <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed">
-                  Always interested in new opportunities, collaborations, and conversations about technology and design.
+                  Always interested in new opportunities, collaborations, and conversations about technology.
                 </p>
 
                 <div className="space-y-4">
                   <Link
-                    href="mailto:test@example.com"
+                    href="mailto:bab9755@nyu.edu"
                     className="group flex items-center gap-3 text-foreground hover:text-muted-foreground transition-colors duration-300"
                   >
-                    <span className="text-base sm:text-lg">test@example.com</span>
+                    <span className="text-base sm:text-lg">bab9755@nyu.edu</span>
                     <svg
                       className="w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-300"
                       fill="none"
@@ -407,10 +399,8 @@ export default function Home() {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
-                  { name: "GitHub", handle: "@felixmacaspac", url: "#" },
-                  { name: "v0.dev", handle: "@felixmacaspac", url: "#" },
-                  { name: "HubSpot Community", handle: "@felixmacaspac", url: "#" },
-                  { name: "LinkedIn", handle: "felixmacaspac", url: "#" },
+                  { name: "GitHub", handle: "@bab9755", url: "https://github.com/bab9755" },
+                  { name: "LinkedIn", handle: "boubalkaly", url: "https://www.linkedin.com/in/boubalkaly/" },
                 ].map((social) => (
                   <Link
                     key={social.name}
@@ -433,8 +423,8 @@ export default function Home() {
         <footer className="py-12 sm:py-16 border-t border-border">
           <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6 sm:gap-8">
             <div className="space-y-2">
-              <div className="text-sm text-muted-foreground">© 2025 Felix Macaspac. All rights reserved.</div>
-              <div className="text-xs text-muted-foreground">Built with v0.dev by Felix Macaspac</div>
+              <div className="text-sm text-muted-foreground">© 2025 Boubacar Ballo. All rights reserved.</div>
+              <div className="text-xs text-muted-foreground">Built with v0.dev by Boubacar Ballo</div>
             </div>
 
             <div className="flex items-center gap-4">
