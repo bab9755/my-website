@@ -212,7 +212,7 @@ export default function Home() {
                     "Developed a clinical model (LoRA, Gemma 3) for reduced training loss and faster T4 GPU inference. Implemented a containerized ML pipeline (Docker, CUDA, GCP) to boost memory efficiency.",
                   tech: ["Python", "LoRA", "Gemma 3", "Docker", "CUDA", "GCP"],
                   status: "Live",
-                  github: "https://github.com/felixmacaspac/ai-design-system",
+                  github: "https://github.com/bab9755/kenya_clinical_reasoning",
                 },
                 {
                   year: "2025",
@@ -222,7 +222,7 @@ export default function Home() {
                     "Developed a scalable full-stack AI Job Board (Next.js, Flask), deployed with Docker on VM. Implemented robust testing (pytest, Selenium) and a GitHub Actions CI/CD pipeline, achieving over 90% test coverage.",
                   tech: ["Next.js", "Flask", "Docker", "VM", "pytest", "Selenium", "GitHub Actions"],
                   status: "Live",
-                  github: "https://github.com/felixmacaspac/ecommerce-analytics",
+                  github: "https://github.com/cs-uh-3260/jobboard-group_f",
                 },
                 {
                   year: "2024",
@@ -231,7 +231,7 @@ export default function Home() {
                   description: "Developed a brain tumor detection model using TensorFlow CNNs, achieving 90% accuracy with OpenCV preprocessing and data augmentation.",
                   tech: ["Next.js", "Tailwind CSS", "Framer Motion"],
                   status: "Live",
-                  github: "https://github.com/felixmacaspac/portfolio-template",
+                  github: "https://github.com/bab9755/brain-tumor-classifier",
                 },
 
               ].map((project, index) => (
